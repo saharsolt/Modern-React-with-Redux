@@ -7,14 +7,10 @@ const el = document.getElementById("root");
 const root = ReactDOM.createRoot(el);
 // 4) Create a component
 function App() {
-  const name = "Sahar";
-  const age = 33;
-
-  return (
-    <h1>
-      Hi, my name is {name}, and my age is {age}.
-    </h1>
-  );
+  // const inputValue = "number";
+  // const minValue = 5;
+  // return <input type={inputValue} min={minValue} />;
+  return <input style={{ border: "3px solid red" }} type="number" min={5} />;
 }
 // 5) Show the component on the screen
 root.render(<App />);
