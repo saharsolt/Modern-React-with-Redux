@@ -10,7 +10,17 @@ function App() {
   //return <input maxLength={6} />;
   // return <input style={{ border: "1px solid blue", paddingTop: "5px" }} />;
   // return <input spellCheck={false} />;
-  return <input spellCheck />;
+  // return <input placeholder="hi there" />;
+  return (
+    <div className="wrapper">
+      <textarea
+        readOnly
+        maxLength={3}
+        spellCheck
+        style={{ backgroundColor: "gray" }}
+      />
+    </div>
+  );
 }
 // 5) Show the component on the screen
 root.render(<App />);
