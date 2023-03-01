@@ -1,4 +1,5 @@
 import Projects from './Projects';
+import Header from './Header';
 import CharityImage from './images/Charity.png';
 import JavaScriptImage from './images/JavaScript.png';
 import LinkedInImage from './images/LinkedIn.png';
@@ -7,13 +8,7 @@ import AvatarImage from './images/Avatar.png';
 function App() {
   return (
     <div>
-      <section className="hero is-primary">
-        <div className="hero-body">
-          <img src={AvatarImage}></img>
-          <p className="title">Sahar Soltanmohammadi</p>
-        </div>
-      </section>
-
+      <Header image={AvatarImage} />
       <div className="card">
         <section className="section">
           <div className="columns">
