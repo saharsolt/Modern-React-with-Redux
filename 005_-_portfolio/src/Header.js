@@ -2,12 +2,25 @@ function Header({ image }) {
   return (
     <section className="hero is-primary is-large">
       <div className="hero-head ">
-        <div className="navbar" navbar-height="100px">
+        <div
+          className="navbar"
+          style={{ backgroundColor: 'lightgray', height: '80px' }}
+        >
           <div className="container">
             <div className="navbar-brand">
-              <a className="navbar-item">
-                <img src={image} alt="Logo" />
-                <p className="title">Sahar Soltanmohammadi</p>
+              <a className="navbar-item" href="!#">
+                <img
+                  src={image}
+                  alt="Logo"
+                  style={{
+                    maxHeight: '100%',
+                    maxWidth: '100%',
+                    padding: '6px',
+                  }}
+                />
+                <p className="title" style={{ color: 'black' }}>
+                  Sahar Soltanmohammadi
+                </p>
               </a>
               <span className="navbar-burger" data-target="navbarMenuHeroA">
                 <span></span>
@@ -17,10 +30,22 @@ function Header({ image }) {
             </div>
             <div id="navbarMenuHeroA" className="navbar-menu">
               <div className="navbar-end">
-                <a className="navbar-item is-active">About</a>
-                <a className="navbar-item">Skills</a>
-                <a className="navbar-item">Projects</a>
-                <a className="navbar-item">Contact</a>
+                <a
+                  className="navbar-item is-active"
+                  style={{ color: 'black' }}
+                  href="!#"
+                >
+                  About
+                </a>
+                <a className="navbar-item" style={{ color: 'black' }} href="!#">
+                  Skills
+                </a>
+                <a className="navbar-item" style={{ color: 'black' }} href="!#">
+                  Projects
+                </a>
+                <a className="navbar-item" style={{ color: 'black' }} href="!#">
+                  Contact
+                </a>
               </div>
             </div>
           </div>
