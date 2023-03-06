@@ -10,6 +10,7 @@ function BookCreate({ onCreate }) {
   const handelSubmit = (event) => {
     event.preventDefault();
     onCreate(title);
+    setTitle("");
   };
 
   return (
