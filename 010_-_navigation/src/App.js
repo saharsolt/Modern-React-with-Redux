@@ -14,7 +14,7 @@ function App() {
     { label: "Yellow", value: "yellow" },
   ];
   return (
-    <Dropdown options={options} onSelect={handleSelect} selection={selection} />
+    <Dropdown options={options} onChange={handleSelect} value={selection} />
   );
 }
 
