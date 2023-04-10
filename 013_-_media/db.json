@@ -15,12 +15,29 @@
     {
       "name": "Brooke Abernathy",
       "id": 4
-    },
-    {
-      "name": "Marty Bashirian",
-      "id": 5
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Breaking the sky",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Hello",
+      "userId": 2
+    },
+    {
+      "title": "Fantastic Granite Cheese",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "Refined Steel Soap",
+      "userId": 2,
+      "id": 4
+    }
+  ],
   "photos": []
 }
