@@ -14,6 +14,9 @@ const store = configureStore({
 
 setupListeners(store.dispatch);
 
+//Temporary to check sth
+//window.store = store;
+//store.getSate();
 export { store };
 export * from "./thunks/fetchUsers";
 export * from "./thunks/addUser";
